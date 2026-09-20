@@ -1,0 +1,1 @@
+create table tasks (id uuid primary key default gen_random_uuid(), title text, tag text, priority text, status text, position int);
